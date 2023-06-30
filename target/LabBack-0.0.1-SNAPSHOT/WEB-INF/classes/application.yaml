@@ -1,0 +1,13 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    show-sql: true
+  datasource:
+    url: jdbc:postgresql://localhost:5432/studs
+    username: porunit
+    password: 358000
+server:
+  address: 10.196.143.243
+  port: 35664
+
